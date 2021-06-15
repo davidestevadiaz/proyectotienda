@@ -4,7 +4,6 @@
       <input type="text"  v-model="anadirnombre" placeholder="nombre del producto">
       <input type="text" v-model="anadirdescripcion" placeholder="descripcion">
       <input type="text"  v-model="anadirprecio" placeholder="precio">
-      <input type="text" v-model="anadircantidad" placeholder="cantidad">
       <input type="text"  v-model="anadirstock" placeholder="stock">
       <input type="text" v-model="anadirimagen" placeholder="url de la imagen">
       <input @click="darAlta" type="submit">
@@ -25,7 +24,6 @@ export default ({
             anadirnombre:"",
             anadirdescripcion:"",
             anadirprecio:"",
-            anadircantidad:"",
             anadirstock:"",
             anadirimagen:"",
 
@@ -37,7 +35,6 @@ export default ({
                     nombre: this.anadirnombre,
                     precio: this.anadirprecio,
                     stock: this.anadirstock,
-                    cantidad: this.anadircantidad,
                     descripcion: this.anadirdescripcion,
                     imagen: this.anadirimagen,
                 })

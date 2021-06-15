@@ -64,12 +64,6 @@ export default {
             });
   
         },
-    suma(){
-        
-        this.num=this.num+1;
-        console.log(this.num);
-        
-    },
 
 
              comprobarStock(){
@@ -93,7 +87,7 @@ export default {
     flex-direction: column;
     flex-basis: 30rem;
     width: 33.33%;
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color: rgba(111, 0, 202, 0.699);
     color: blanchedalmond;
     padding: 1.5rem;
     margin: 0.5rem;

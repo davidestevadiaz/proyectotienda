@@ -1,5 +1,5 @@
 <template>
-    <div class="contenido">j
+    <div class="contenido">
         <card v-for="ropa in articulos" v-bind:articulo="ropa" v-bind:key="ropa.id" v-bind:articuloid="ropa.id"/>
       </div>
 </template>

@@ -82,11 +82,11 @@ export default {
 <style scoped>
 .nav{
   display: flex;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 
 }
 .nav--links{
-    background-color: black;
+    background-color: rgb(250, 253, 153);
   list-style: none;
   display: flex;
   justify-content: flex-end;

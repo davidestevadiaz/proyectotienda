@@ -4,7 +4,7 @@
     <div class="contenido">
         <card v-for="ropa in articulos" v-bind:articulo="ropa" v-bind:key="ropa.id"/>
       </div>
-      <img v-if="mostrar" src="./img/tiendaonline.jpg">
+      <img v-if="mostrar" src="./img/loading-12.gif">
     </div>
 </template>
 <script>
@@ -17,6 +17,9 @@ export default {
       articulos: [],
       mostrar:true,
     }
+  },
+  mounted:function(){
+    this.mostrar=false
   },
 
   components:{
